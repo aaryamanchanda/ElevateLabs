@@ -7,7 +7,7 @@ while True:
     print("3. Remove Task")
     print("4. Exit")
 
-    choice = input("Enter your choice: ")
+    choice = input("Enter your choice:")
 
     if choice == "1":
         if len(tasks) == 0:
