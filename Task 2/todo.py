@@ -18,7 +18,7 @@ while True:
                 print(f"{i + 1}. {tasks[i]}")
 
     elif choice == "2":
-        task = input("Enter task: ")
+        task = input("Enter task:")
         tasks.append(task)
         print("Task added.")
 
